@@ -1,0 +1,10 @@
+상속 시 접근 지정
+  public     - 기본 클래스의 protected, public 맴버 속성을 그대로 계승
+  private    - 기본 클래스의 protected, public 맴버를 private 으로 계승
+  protected  - 기본 클래스의 protected, public 멤버를 protected 로 계승
+
+보통 public를 많이 쓰임
+
+
+다중 상속 시 기본 클래스의 맴버가 중복하여 생성되는 것을 방지
+상속 앞에 virtual 선언함
