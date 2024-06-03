@@ -22,3 +22,6 @@ class Worker : virtual public Person
 class StudentWorker : public Student, public Worker
 {
 }
+
+
+
