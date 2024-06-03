@@ -1,0 +1,25 @@
+클래스 Point와 Point를 public으로 상속 받는 ColorPoint가 있다.
+    Point
+      |
+  ColorPoint
+이때 각 클래스의 맴버 함수는 다음과 같다.
+Point의 public
+ - void set()
+ - void showPoint()
+
+ColorPoint의 public
+ - void setColor()
+ - void showColorPoint()
+
+
+이때 메인에서 
+ColorPoint cp;
+Point* pBase = &cp; 업캐스팅이 일어 났을 때 pBase가 접근 가능한 함수를 모두 적으시오.
+
+
+
+
+
+정답)
+Point::set();
+Point::showPoint();
